@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		50188FCF1CDD457100DA415D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FCE1CDD457100DA415D /* AppDelegate.swift */; };
-		50188FD11CDD457100DA415D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FD01CDD457100DA415D /* ViewController.swift */; };
+		50188FD11CDD457100DA415D /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FD01CDD457100DA415D /* LocationsViewController.swift */; };
 		50188FD41CDD457100DA415D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50188FD21CDD457100DA415D /* Main.storyboard */; };
 		50188FD61CDD457100DA415D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50188FD51CDD457100DA415D /* Assets.xcassets */; };
 		50188FD91CDD457100DA415D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50188FD71CDD457100DA415D /* LaunchScreen.storyboard */; };
 		50188FE41CDD457100DA415D /* ECE158BFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FE31CDD457100DA415D /* ECE158BFinalTests.swift */; };
 		50188FEF1CDD457100DA415D /* ECE158BFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FEE1CDD457100DA415D /* ECE158BFinalUITests.swift */; };
+		50188FFE1CDD4B3500DA415D /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FFD1CDD4B3500DA415D /* SampleData.swift */; };
+		501890001CDD4B9A00DA415D /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50188FFF1CDD4B9A00DA415D /* LocationViewController.swift */; };
+		501890021CDD4C2900DA415D /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501890011CDD4C2900DA415D /* LocationTableViewCell.swift */; };
+		501890041CDD4EFF00DA415D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501890031CDD4EFF00DA415D /* DetailViewController.swift */; };
+		A01544AB300C715D5987B176 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC43E013D609F2FE8E977F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BC43E013D609F2FE8E977F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50188FCB1CDD457100DA415D /* ECE158BFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECE158BFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50188FCE1CDD457100DA415D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50188FD01CDD457100DA415D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50188FD01CDD457100DA415D /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		50188FD31CDD457100DA415D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50188FD51CDD457100DA415D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50188FD81CDD457100DA415D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,13 @@
 		50188FEA1CDD457100DA415D /* ECE158BFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECE158BFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50188FEE1CDD457100DA415D /* ECE158BFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECE158BFinalUITests.swift; sourceTree = "<group>"; };
 		50188FF01CDD457100DA415D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50188FFD1CDD4B3500DA415D /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		50188FFF1CDD4B9A00DA415D /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		501890011CDD4C2900DA415D /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		501890031CDD4EFF00DA415D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		501890051CDD542E00DA415D /* ECE158BFinal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECE158BFinal-Bridging-Header.h"; sourceTree = "<group>"; };
+		9D46207020E10830B614A3B4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DD381E592AF63AB734ADF78E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01544AB300C715D5987B176 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42F99AC8E640F923A0F920EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BC43E013D609F2FE8E977F0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50188FC21CDD457100DA415D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				50188FE21CDD457100DA415D /* ECE158BFinalTests */,
 				50188FED1CDD457100DA415D /* ECE158BFinalUITests */,
 				50188FCC1CDD457100DA415D /* Products */,
+				A5124D39F0C078FE4D682149 /* Pods */,
+				42F99AC8E640F923A0F920EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				50188FCE1CDD457100DA415D /* AppDelegate.swift */,
-				50188FD01CDD457100DA415D /* ViewController.swift */,
+				50188FD01CDD457100DA415D /* LocationsViewController.swift */,
+				501890011CDD4C2900DA415D /* LocationTableViewCell.swift */,
+				501890031CDD4EFF00DA415D /* DetailViewController.swift */,
 				50188FD21CDD457100DA415D /* Main.storyboard */,
 				50188FD51CDD457100DA415D /* Assets.xcassets */,
 				50188FD71CDD457100DA415D /* LaunchScreen.storyboard */,
 				50188FDA1CDD457100DA415D /* Info.plist */,
+				50188FFC1CDD4B1400DA415D /* Model */,
+				501890051CDD542E00DA415D /* ECE158BFinal-Bridging-Header.h */,
 			);
 			path = ECE158BFinal;
 			sourceTree = "<group>";
@@ -125,6 +153,24 @@
 			path = ECE158BFinalUITests;
 			sourceTree = "<group>";
 		};
+		50188FFC1CDD4B1400DA415D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50188FFD1CDD4B3500DA415D /* SampleData.swift */,
+				50188FFF1CDD4B9A00DA415D /* LocationViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5124D39F0C078FE4D682149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD381E592AF63AB734ADF78E /* Pods.debug.xcconfig */,
+				9D46207020E10830B614A3B4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50188FF31CDD457100DA415D /* Build configuration list for PBXNativeTarget "ECE158BFinal" */;
 			buildPhases = (
+				3753D3B3C9D952E5A265904E /* Check Pods Manifest.lock */,
 				50188FC71CDD457100DA415D /* Sources */,
 				50188FC81CDD457100DA415D /* Frameworks */,
 				50188FC91CDD457100DA415D /* Resources */,
+				8670EE2471F6567EA5A9D508 /* Embed Pods Frameworks */,
+				817EEF07AA58818C98FE45D7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +242,7 @@
 				TargetAttributes = {
 					50188FCA1CDD457100DA415D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 25FUPWV7Z8;
 					};
 					50188FDE1CDD457100DA415D = {
 						CreatedOnToolsVersion = 7.3;
@@ -251,13 +301,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3753D3B3C9D952E5A265904E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		817EEF07AA58818C98FE45D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8670EE2471F6567EA5A9D508 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50188FC71CDD457100DA415D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50188FD11CDD457100DA415D /* ViewController.swift in Sources */,
+				50188FFE1CDD4B3500DA415D /* SampleData.swift in Sources */,
+				501890021CDD4C2900DA415D /* LocationTableViewCell.swift in Sources */,
+				50188FD11CDD457100DA415D /* LocationsViewController.swift in Sources */,
+				501890041CDD4EFF00DA415D /* DetailViewController.swift in Sources */,
 				50188FCF1CDD457100DA415D /* AppDelegate.swift in Sources */,
+				501890001CDD4B9A00DA415D /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,23 +501,36 @@
 		};
 		50188FF41CDD457100DA415D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD381E592AF63AB734ADF78E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ECE158BFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Max-Xing.ECE158BFinal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECE158BFinal/ECE158BFinal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		50188FF51CDD457100DA415D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D46207020E10830B614A3B4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ECE158BFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Max-Xing.ECE158BFinal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ECE158BFinal/ECE158BFinal-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +599,7 @@
 				50188FF51CDD457100DA415D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50188FF61CDD457100DA415D /* Build configuration list for PBXNativeTarget "ECE158BFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +608,7 @@
 				50188FF81CDD457100DA415D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50188FF91CDD457100DA415D /* Build configuration list for PBXNativeTarget "ECE158BFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +617,7 @@
 				50188FFB1CDD457100DA415D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
